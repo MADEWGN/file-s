@@ -1,0 +1,8 @@
+heroku stack:set container 
+heroku addons:create heroku-postgresql
+
+
+
+git add -f .
+git commit -m "First Deployment"
+git push heroku master --force
